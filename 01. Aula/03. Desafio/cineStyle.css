@@ -1,0 +1,36 @@
+.Titulo{
+    font-family:'Times New Roman', Times, serif;
+    color: brown;
+    text-align: center;
+}
+
+/* .Filme{
+    display: flex;
+    width: 250px;
+} */
+
+.Filmes{
+    display: flex;
+    align-tracks: center;
+    justify-content: space-around;
+    float: left;
+}
+
+.centralize{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Fonte{
+    color: brown;
+}
+
+.Base{
+    color: aliceblue;
+    text-align: center;
+}
+
+.Lista{
+    list-style: none;
+}

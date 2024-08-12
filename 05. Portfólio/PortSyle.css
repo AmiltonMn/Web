@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    background-image: url("/01. Aulas/05. Portfólio/01. Imagens/AAAAAA\ WALLPAPER.gif");
+    display: flex;
+    flex-direction: column;
+}
+
+Header
+{
+    background-color: #02000D;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    height: 90px;
+    margin-bottom: 1600px;
+    z-index: 50;
+}
+
+h1
+{
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+article
+{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    min-height: fit-content;
+    padding: 50px;
+    background-color: rgba(63, 89, 202, 0.692);
+    border-radius: 25px;
+    box-shadow: 3px 3px 1px 1px rgb(36, 3, 185);
+}
+
+section {
+    width: 800px;
+    display: flex;
+    min-height: fit-content;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+
+p
+{
+    font-family: "Inter", sans-serif;
+}
+
+nav
+{
+    color: white;
+    margin-right: 10px;
+}
+
+footer
+{
+    background-color: #02000D;
+    display: flex;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 50;
+}
+
+#Logo
+{
+    width: 64px;
+    height: 64px;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+
+#Eu
+{
+    max-width: 80%;
+    max-height: 100%;
+}
+
+#SectionInicio
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 170px;
+}
+
+#TextoInicial
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 35%;
+    height: 45%;
+    color: black;
+}
+
+#introdução
+{
+    color: rgb(255, 252, 252);
+    font-family: "Inter", sans-serif;
+}
+
+#Menu:hover
+{
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+    color: #030A8C;
+    color: white;
+}
+
+#Imagem
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #02000d54;
+    border-radius: 60px;
+    width: 30%;
+    height: 80%;
+}
+
+#SobreMim
+{
+    margin-top: 170px;
+    justify-content:space-around;
+}
+
+#SectionSobreMim
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Hobbies
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#TudoSobreMim h1
+{
+    color: #fafafa;
+}
+
+
+#Texto
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 19px;
+}
+
+#Fotinhas 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+    max-width: fit-content;
+    max-height: fit-content;
+    gap: 10px;
+}
+
+#TextoD
+{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    flex-direction: column;
+}
+
+#FotinhasD
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#FotosSobreMim
+{
+    width: 350px;
+    height: 350px;
+    border-radius: 50px;
+    top: 10px;
+    margin-bottom: 10px;
+}
+
+#Linguagens
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 170px;
+}
+
+#Perfil, #Desenho
+{
+    display: flex;
+    width: 350px;
+    height: 350px;
+    border-radius: 50px;
+    box-shadow: 3px 3px 1px 1px rgb(36, 3, 185);
+}
+
+#Foco, #Mine
+{
+    width: 350px;
+    height: 350px;
+    top: -90px;
+    right: 60px;
+    display: flex;
+    position: relative;
+    border-radius: 50px;
+    box-shadow: 3px 3px 1px 1px rgb(36, 3, 185);
+}
+
+#Perfil:hover, #Foco:hover, #Mine:hover, #Desenho:hover, #Eu:hover
+{
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+#Python
+{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+}
+
+#Java
+{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    border-radius: 50px;
+}
+
+#C
+{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    border-radius: 50px;
+}
+
+#FotosLinguagens
+{
+    width: 70%;
+    height: 250px;
+    gap: 10px;
+    margin-bottom: 10px;
+    flex: wrap;
+}
+
+#Ternaria
+{
+    width: 100%;
+    border-radius: 50px;
+}
+
+#TernariaArt
+{
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#TextoTernaria
+{
+    display: flex;
+    align-items: center;
+}
+
+#ImgTernaria
+{
+    display: flex;
+    width: 40%;
+}
+
+#LinguagensDiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+#ImagensContato
+{
+    width: 45%;
+}

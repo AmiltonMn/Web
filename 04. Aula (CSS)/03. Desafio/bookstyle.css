@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS da Header */
+header
+{
+    background:linear-gradient(to right, #000000, #0022dd);
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 60px;
+}
+
+#logo
+{
+    display: flex;
+    align-items:center;
+    align-content:start;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+#logo > p
+{
+    color: white;
+    text-indent: 10px;
+}
+
+/* CSS Para o Título */
+#Titulo
+{
+    margin: 30px;
+}
+
+#Titulo > h1
+{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+}
+
+/* CSS Para as imagens */
+
+#Livro
+{
+    height: 600px;
+}
+
+#Livro:hover
+{
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+    opacity: 50%;
+}
+
+button
+{
+    margin-right: 10px;
+}
+
+#Livros
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+a
+{
+    text-decoration: none;
+}

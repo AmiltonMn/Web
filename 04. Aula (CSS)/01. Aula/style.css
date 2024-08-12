@@ -1,0 +1,23 @@
+.container{
+    position: fixed;
+    background-color: rgb(0, 0, 255);
+    left: 180px;
+    top: 50px;
+    width: 1000px;
+    height: 300px;
+    z-index: 0;
+    font-family: "Bebas Neue", sans-serif;
+    font-stretch: expanded;
+}
+
+.container2{
+    position: fixed;
+    background-color: rgb(0, 255, 64);
+    left: 180px;
+    top: 50px;
+    width: 1000px;
+    height: 300px;
+    z-index: 1;
+    font-family: "Bebas Neue", sans-serif;
+    font-stretch: ultra-expanded;
+}

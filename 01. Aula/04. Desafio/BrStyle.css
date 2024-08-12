@@ -1,0 +1,10 @@
+.centralize{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td{
+    width: 8em;
+    text-align: center;
+}
